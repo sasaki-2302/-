@@ -21,9 +21,11 @@
 - あまり知名度は無いが暮らしやすい場所を探す時
 
 ## 設計書
-- WBSシート
-- フローチャート、ER図
-- テーブル定義書、アプリケーション詳細設計書
+- ER図
+https://drive.google.com/file/d/1xO2jV1y5cHltQOdC5W9YV57ZvXbkAuGJ/view?usp=share_link
+
+- テーブル定義書
+https://docs.google.com/spreadsheets/d/1fnoCHRZmGs7c9PF9E5lPHbqMQi3vGC6xp5AcbgmUFDo/edit?usp=share_link
 
 ## 開発環境
 - OS：Linux(CentOS)
