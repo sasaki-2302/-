@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+  # namespaceにすることでURLにadminを含む
   namespace :admin do
     root to: 'homes#top'
     resources :members, only: [:index, :show, :edit, :update]
     resources :posts,   only: [:index, :show, :edit, :update]
   end
-
+  # scopeにすることでURLにpublicを含まない
   scope module: :public do
     root to: 'homes#top'
     resources :posts,   except: [:new]
