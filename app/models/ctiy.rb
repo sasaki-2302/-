@@ -1,0 +1,2 @@
+class Ctiy < ApplicationRecord
+end
